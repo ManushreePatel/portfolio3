@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+  integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/brands.min.css"
+  integrity="sha512-EJp8vMVhYl7tBFE2rgNGb//drnr1+6XKMvTyamMS34YwOEFohhWkGq13tPWnK0FbjSS6D8YoA3n3bZmb3KiUYA=="
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="assets/css/styles.css">
+
+  <!-- =====BOX ICONS===== -->
+  <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+  <title>Portfolio website complete</title>
+</head>
+
+<body>
+  <!--===== HEADER =====-->
+  <header class="l-header">
+    <nav class="nav bd-grid">
+      <div>
+        <a href="#" class="nav__logo">Manushree Patel</a>
+      </div>
+
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+          <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+
+          <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+          <li class="nav__item"><a href="#work" class="nav__link">Projects</a></li>
+          <li class="nav__item"><a href="#ref" class="nav__link">Reference</a></li>
+          <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="nav__toggle" id="nav-toggle">
+        <i class='bx bx-menu'></i>
+      </div>
+    </nav>
+  </header>
+
+  <main class="l-main">
+    <!--===== HOME =====-->
+    <section class="home bd-grid" id="home">
+      <div class="home__data">
+        <h1 class="home__title">Hi,<br>I'm <span class="home__title-color">Manushree</span><br>Frontend developer</h1>
+        <p style="font-size: 20px; margin-bottom: 20px; font-weight: bold;">Enthusiast</p>
+        <a href="#contact" class="button">Contact</a>
+      </div>
+
+      <!-- ICONS -->
+      <div class="home__social">
+        <a target="_blank" href="https://www.linkedin.com/in/manushree-patel-959284294/" class="home__social-icon"><i
+            class='bx bxl-linkedin'></i></a>
+        <!-- <a href="" class="home__social-icon"><i class='bx bxl-behance'></i></a> -->
+        <a target="_blank" href="https://www.instagram.com/i_m.anushree_patel_99/" class="home__social-icon"><i
+            class='bx bxl-instagram'></i></a>
+      </div>
+
+      <div class="home__img">
+        <!-- <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"> -->
+        <!-- <image class="home__blob-img" x="50" y="60" href="assets/img/about.png"/> -->
+        <!-- blue round -->
+        <mask id="mask0" mask-type="alpha">
+          <path
+            d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z" />
+        </mask>
+        <g mask="url(#mask0)">
+          <path
+            d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z" />
+          <!-- <image class="home__blob-img" x="50" y="60" href="assets/img/about.png"/> -->
+          <img class="home__blob-img" src="assets/img/about.jpg" alt="Profile Image" />
+        </g>
+        </svg>
+      </div>
+    </section>
+
+    <!--===== ABOUT =====-->
+    <section class="about section " id="about">
+      <h2 class="section-title">About</h2>
+
+      <div class="about__container bd-grid">
+        <div class="about__img">
+          <img src="assets/img/about.jpg" alt="">
+        </div>
+
+        <div>
+          <h2 class="about__subtitle">I'm Manushree Patel</h2>
+          <p class="about__text">I am third-semester student pursuing BTECH in computer science engineering at Silver
+            Oak University .I have a deep
+            enthusiasm for technology and coding. which drives my passion for exploring innovative solutions and
+            developing software that makes a difference. I enjoy tackling complex problems and continuously expanding my
+            skill set through hands-on projects and collaborations.</p>
+        </div>
+      </div>
+    </section>
+
+
+
+
+    <!--===== SKILLS =====-->
+    <section class="skills section" id="skills">
+      <h2 class="section-title">Skills</h2>
+
+      <div class="skills__container bd-grid">
+        <div>
+          <h2 class="skills__subtitle">Profesional Skills</h2>
+          <p class="skills__text">I've learned HTML , CSS , JS , C , C++ , PYTHON gaining skills in web development and
+            programming fundamentals and software design.</p>
+          <div class="skills__data">
+            <div class="skills__names">
+              <!-- <i class='bx bxl-html5 skills__icon'></i> -->
+              <span class="skills__name">C++</span>
+            </div>
+            <div class="skills__bar skills__html">
+
+            </div>
+            <div>
+              <span class="skills__percentage">85%</span>
+            </div>
+          </div>
+          <div class="skills__data">
+            <div class="skills__names">
+              <!-- <i class='bx bxl-html5 skills__icon'></i> -->
+              <span class="skills__name">PYTHON</span>
+            </div>
+            <div class="skills__bar skills__html">
+
+            </div>
+            <div>
+              <span class="skills__percentage">91%</span>
+            </div>
+          </div>
+          <div class="skills__data">
+            <div class="skills__names">
+              <!-- <i class='bx bxl-css3 skills__icon'></i> -->
+              <span class="skills__name">C</span>
+            </div>
+            <div class="skills__bar skills__css">
+
+            </div>
+            <div>
+              <span class="skills__percentage">88%</span>
+            </div>
+          </div>
+
+
+
+
+          <div class="skills__data">
+            <div class="skills__names">
+              <!-- <i class='bx bxl-javascript skills__icon'></i> -->
+              <span class="skills__name">CSS</span>
+            </div>
+            <div class="skills__bar skills__js">
+
+            </div>
+            <div>
+              <span class="skills__percentage">90%</span>
+            </div>
+          </div>
+          <!--  -->
+          <div class="skills__data">
+            <div class="skills__names">
+              <!-- <i class='bx bxl-javascript skills__icon'></i> -->
+              <span class="skills__name">JAVASCRIPT</span>
+            </div>
+            <div class="skills__bar skills__js">
+
+            </div>
+            <div>
+              <span class="skills__percentage">90%</span>
+            </div>
+          </div>
+
+          <div class="skills__data">
+            <div class="skills__names">
+              <!-- <i class='bx bxs-paint skills__icon'></i> -->
+              <span class="skills__name">HTML</span>
+            </div>
+            <div class="skills__bar skills__ux">
+
+            </div>
+            <div>
+              <span class="skills__percentage">95%</span>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <img src="assets/img/skill.jpg" alt="" class="skills__img">
+        </div>
+      </div>
+    </section>
+
+    <!--===== WORK =====-->
+    <section class="work section" id="work">
+      <h2 class="section-title">Projects</h2>
+
+      <div class="work__container bd-grid">
+        <a href="" class="work__img">
+          <img src="assets/img/work1.jpg" alt="">
+        </a>
+        <a href="" class="work__img">
+          <img src="assets/img/work2.jpg" alt="">
+        </a>
+        <a href="" class="work__img">
+          <img src="assets/img/work3.jpg" alt="">
+        </a>
+        <a href="" class="work__img">
+          <img src="assets/img/work4.jpg" alt="">
+        </a>
+        <a href="" class="work__img">
+          <img src="assets/img/work5.jpg" alt="">
+        </a>
+        <a href="" class="work__img">
+          <img src="assets/img/work6.jpg" alt="">
+        </a>
+      </div>
+    </section>
+
+    <!-- =======REFERNCE====== -->
+    <section class="about section " id="ref">
+      <h2 class="section-title">Reference</h2>
+
+      <div class="about__container bd-grid">
+        <div class="about__img">
+          <img
+            src="data:image/jpeg;base64,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DIREQEREBERAREQEREBERAREQY7HqB00LmNIDiCBfY3FrHwXztVsdTzujdo6Nxa4A31GmhX00vmfjCP2dfVMJuRPJr/c4uHyK14/lXK3s2fC8YtlN9hz2apc/HVtGkG25XP2zktsDpdXKPD87speGj43UfSk71p9bK9o2jFeLZKiPKRdo2/Va7S1Ra21r3vcXtb08VkIOHDq10wbfa+xWwYJwtFH3jUd49GEemqtLitMM7e9alg8ojkD8gPPUc1u3/jgluRzRpp1aQsVVcHx+0L21BIvf8IsVja/h5xDntkzkHfQX6Jem+Tpzx8NvouMva93Zw+axGK40Tz1utSw6TI+97EfUKzX117+JKrOOb2rea3FPwyqtWQuOt5Rtubm33X0lTR5WNHgAvmXhge0rKZp5zMHwN/svp5TyM8L20IiLJYREQEREBERAREQEREBERAREQFwntowoR1wlG0zLnT8TdCb+Oy7sub9tuFySU0U7LlsLznAGzXD3/QhXwvdGXhxEZgshSvcCBseah077EX2WXw9oc7yB9NNCuhkyspMgFjqBa1rXKg0mFyyucM4a0C46nkFPqKctiBB/CbHxuNfusLT4gQb3tbb0VenTTr35S6GJwdleSBcjQ7FZCeuMbSxubKSDc+ViPioOHzl7m28QT4HxWWx0Maw33AA8NCc3/CdMOuyajUK3V5N7X1VjMDyV+qOZ2a1geSjRwk7KzN0fsa4eMlUatw7kIIb/U9wsPgF21cv7HeI4xE2heA2S7nMPKQHUt/uC6gsOTe2uPgREWaRERAREQEREBERAREQEREBERAVMrGuBDgC0ixB2I536LH43jtPSszTSBvg3d7ujWrneIcby107KaBrooHH+Ze2eRo15e6NlfDC5VXLKSNB45w1kFXK2EgxZzksLBoP4Vh6ectIf4H9gro3aBgOaEyNGrSD53XO6eEOHgV05zoZ4fd4ZqPGY3RGFxyk3IJB0zbjosI2CzrBwIXslC/lr1G6sxxSNN7EfdU6ot01slFpo0NaQ06k6udpoqK6cOZd29str39deSx2HuqHyAR3J+TfNbUzhaWUXdp977lXmNqlumjthcXBrQbk/FbgME/hqV0jgM5Fh5u2+62TBuE2xEONiR8ljuNqzM9sI2YMzvM7D4araYdM3Wdy3dRp8RLSCCQW6gjQgjYgrs3AfGralohm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"
+            alt="">
+        </div>
+
+        <div>
+          <h2 class="about__subtitle">DHIRAJ POOJARA SIR</h2>
+          <p class="about__text"> my mentor, my director, one who made me walk on right path & reshaping my future as a
+            perfect/strong
+            architecture. Its hard to define a guru but in short terms under his guidance I have learnt a lot about
+            spirituality, how to shape your attitude under situations & most importantly understanding the thin gap
+            between
+            confidence -- self confidence.</p>
+        </div>
+      </div>
+    </section>
+    <!-- kam -->
+    <div class="about__container bd-grid">
+      <div class="about__img">
+        <!-- <img src="data:image/jpeg;base64,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DIREQEREBERAREQEREBERAREQY7HqB00LmNIDiCBfY3FrHwXztVsdTzujdo6Nxa4A31GmhX00vmfjCP2dfVMJuRPJr/c4uHyK14/lXK3s2fC8YtlN9hz2apc/HVtGkG25XP2zktsDpdXKPD87speGj43UfSk71p9bK9o2jFeLZKiPKRdo2/Va7S1Ra21r3vcXtb08VkIOHDq10wbfa+xWwYJwtFH3jUd49GEemqtLitMM7e9alg8ojkD8gPPUc1u3/jgluRzRpp1aQsVVcHx+0L21BIvf8IsVja/h5xDntkzkHfQX6Jem+Tpzx8NvouMva93Zw+axGK40Tz1utSw6TI+97EfUKzX117+JKrOOb2rea3FPwyqtWQuOt5Rtubm33X0lTR5WNHgAvmXhge0rKZp5zMHwN/svp5TyM8L20IiLJYREQEREBERAREQEREBERAREQFwntowoR1wlG0zLnT8TdCb+Oy7sub9tuFySU0U7LlsLznAGzXD3/QhXwvdGXhxEZgshSvcCBseah077EX2WXw9oc7yB9NNCuhkyspMgFjqBa1rXKg0mFyyucM4a0C46nkFPqKctiBB/CbHxuNfusLT4gQb3tbb0VenTTr35S6GJwdleSBcjQ7FZCeuMbSxubKSDc+ViPioOHzl7m28QT4HxWWx0Maw33AA8NCc3/CdMOuyajUK3V5N7X1VjMDyV+qOZ2a1geSjRwk7KzN0fsa4eMlUatw7kIIb/U9wsPgF21cv7HeI4xE2heA2S7nMPKQHUt/uC6gsOTe2uPgREWaRERAREQEREBERAREQEREBERAVMrGuBDgC0ixB2I536LH43jtPSszTSBvg3d7ujWrneIcby107KaBrooHH+Ze2eRo15e6NlfDC5VXLKSNB45w1kFXK2EgxZzksLBoP4Vh6ectIf4H9gro3aBgOaEyNGrSD53XO6eEOHgV05zoZ4fd4ZqPGY3RGFxyk3IJB0zbjosI2CzrBwIXslC/lr1G6sxxSNN7EfdU6ot01slFpo0NaQ06k6udpoqK6cOZd29str39deSx2HuqHyAR3J+TfNbUzhaWUXdp977lXmNqlumjthcXBrQbk/FbgME/hqV0jgM5Fh5u2+62TBuE2xEONiR8ljuNqzM9sI2YMzvM7D4araYdM3Wdy3dRp8RLSCCQW6gjQgjYgrs3AfGralohm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" alt=""> -->
+        <img src="https://6690002ce373471111d01718--mellifluous-babka-982934.netlify.app/images/Kamleshsir.png" alt="">
+      </div>
+
+      <div>
+        <h2 class="about__subtitle">KAMLESH SURTI SIR</h2>
+        <p class="about__text"> A business consultant and Brand Builder. He has been the part of Industry for 27 years
+          and has contributed
+          over 15 years in transforming lives and redefining the entrepreneurial vistas as a corporate trainer and
+          mentor. He has played the key roles in Marketing Strategies for various Business Leaders. He is a
+          Professional
+          Counselor and Business Growth Advisor. He has touched more than 50,000 lives so far.</p>
+      </div>
+    </div>
+    <!-- <section class="about section " id="ref">
+      <h2 class="section-title">Reference</h2>
+
+    </section> -->
+
+    <!--===== CONTACT =====-->
+    <section class="contact section" id="contact">
+      <h2 class="section-title">Contact Me</h2>
+      <!-- <p style="margin: auto;width: fit-content; font-size: 25px; margin-bottom: 10px;">Name : Manushree Patel</p>
+      <p style="margin: auto;width: fit-content; font-size: 25px; margin-bottom: 10px;">Email : manushree181@gmail.com
+      </p>
+      <p style="margin: auto;width: fit-content; font-size: 25px; margin-bottom: 10px;">Contact No : +91 9664705396</p>
+      <p style="margin: auto;width: fit-content; font-size: 25px; margin-bottom: 10px;">Address : Ahmedabad , India</p> -->
+
+      <div class="main"
+        style="display: flex; margin: auto;width:70%;text-align: center;gap: 200px;">
+        <div class="b"
+          style="border-radius: 50%; height: 90px; width: 90px; border: solid;align-content: center;text-align: center;font-size: 20px;">
+          <i style="color: blue;" class="fa-solid fa-location-dot"></i>
+          
+        </div>
+        <div class="b"
+          style="border-radius: 50%; height: 90px; width: 90px; border: solid;text-align: center;align-content: center;font-size: 20px;">
+          <i style="color: blue;" class="fa-solid fa-phone"></i>
+        </div>
+        <div class="b"
+          style="border-radius: 50%; height: 90px; width: 90px; border: solid;text-align: center;align-content: center;font-size: 20px;">
+          <i style="color: blue;" class="fa-solid fa-envelope"></i>
+        </div>
+      </div>
+
+      <div class="main"
+        style="display: flex; margin: auto;width:70%;text-align: center;justify-content: space-between;margin-top: 10px;">
+        <div class="b"
+          style="font-size: 15px;text-align: center;align-content: center;">
+          Ahmedabad<br> India
+        </div>
+        <div class="b"
+        style="font-size: 15px;text-align: center;align-content: center;">
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+91 9664705396
+      </div>
+      <div class="b"
+      style="font-size: 15px;text-align: center;align-content: center;">
+      manushree181@gmail.com
+    </div>
+      </div>
+      
+
+    </section>
+  </main>
+
+  <!--===== FOOTER =====-->
+  <footer class="footer">
+    <p class="footer__title">Manushree Patel</p>
+    <div class="footer__social">
+      <!-- <a href="#" class="footer__icon"><i class='bx bxl-facebook'></i></a> -->
+      <a target="_blank" href="https://www.instagram.com/i_m.anushree_patel_99/" class="footer__icon"><i
+          class='bx bxl-instagram'></i></a>
+      <a target="_blank" href="https://www.linkedin.com/in/manushree-patel-959284294/" class="footer__icon"><i
+          class='bx bxl-linkedin'></i></a>
+    </div>
+    <p class="footer__copy">&#169; Bedimcode. All rigths reserved</p>
+  </footer>
+
+
+  <!--===== SCROLL REVEAL =====-->
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+  <!--===== MAIN JS =====-->
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
